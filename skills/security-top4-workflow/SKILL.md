@@ -1,6 +1,6 @@
 ---
 name: security-top4-workflow
-description: "Use when planning an end-to-end submission to the four flagship security conferences: IEEE S&P, USENIX Security, ACM CCS, and NDSS. Triggers for security paper planning, milestone scheduling, stage routing, top-four security submission readiness, rebuttal planning, artifact planning, and camera-ready coordination."
+description: "Use when planning an end-to-end submission or one-shot full pre-submission audit for the four flagship security conferences: IEEE S&P, USENIX Security, ACM CCS, and NDSS. Triggers for security paper planning, mode=full audit, milestone scheduling, stage routing, top-four security submission readiness, simulated review, threat-model/evidence/artifact/ethics/submission checks, rebuttal planning, artifact planning, and camera-ready coordination."
 ---
 
 # Security Top-Four Workflow
@@ -16,6 +16,14 @@ Use this as the orchestrator for a security paper targeting IEEE S&P, USENIX Sec
 
 If live official instructions conflict with this skill, the official instructions win.
 
+## Modes
+
+- `mode=plan`: plan the lifecycle, stage routing, milestones, and next skill.
+- `mode=full`: run a complete pre-submission audit in one pass. Include venue fit, simulated reviews, threat model, evidence support, artifact/ethics, submission/desk-reject risks, and revision roadmap. Do not make the user invoke each specialty skill separately.
+- `mode=followup:<lane>`: drill into one lane after a full audit, such as venue, threat-model, evidence, artifact, ethics, writing, submission, rebuttal, or camera-ready.
+
+If the user asks for a complete NDSS/S&P/USENIX/CCS paper review or "full audit" and provides a manuscript path, prefer `mode=full`.
+
 ## Stage Router
 
 - Idea or target unclear: use `security-topic-selection`, then `security-top4-venue-fit`.
@@ -28,6 +36,8 @@ If live official instructions conflict with this skill, the official instruction
 - Final upload approaching: use `security-submission-check`.
 - Reviews released: use `security-author-response`.
 - Accepted, shepherded, or conditionally accepted: use `security-camera-ready`.
+
+In `mode=full`, treat those specialized skills as internal lanes of one audit. Mention the lanes in the output, but do not instruct the user to run each skill separately unless they ask for a focused follow-up.
 
 Also invoke the existing single-conference profile once a target is likely:
 `ieee-symposium-on-security-and-privacy`, `usenix-security-symposium`,
@@ -60,6 +70,22 @@ Also invoke the existing single-conference profile once a target is likely:
 - Do not submit a measurement paper without sampling bias, validation, and reproducibility checks.
 - Do not defer core experiments or disclosure decisions to rebuttal.
 - Do not rely on old venue rules for anonymity, page limits, AI-use policy, artifact rules, or rebuttal format.
+
+## Full Audit Output
+
+Use this output when `mode=full`:
+
+```text
+[Paper card]
+[Target venue and venue-fit risk]
+[Simulated review synthesis]
+[Threat-model audit]
+[Claim-to-evidence audit]
+[Artifact/ethics/release audit]
+[Submission/desk-reject risk audit]
+[Prioritized revision roadmap]
+[Next focused lane, if any]
+```
 
 ## Output Format
 

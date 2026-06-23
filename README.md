@@ -136,6 +136,17 @@ Codex should route that through the relevant workflow and venue-fit skills.
 
 ## Quick Start
 
+Full NDSS/top-four security pre-submission audit:
+
+```text
+Use $security-top4-review-simulator, mode=full, to run a complete NDSS pre-submission audit.
+Paper path: <LaTeX source directory or PDF>
+Target venue: NDSS
+Include: venue fit, simulated PC reviews, threat model, evidence support, artifact/ethics, desk-reject risks, and prioritized revision roadmap.
+```
+
+The full audit is a wrapper. You do not need to separately invoke `security-threat-model`, `security-evidence-audit`, `security-artifact-package`, `security-ethics-disclosure`, or `security-submission-check` unless you want to drill down into one lane after the full report.
+
 Full AAAI security or LLM-agent review:
 
 ```text
@@ -154,7 +165,7 @@ Paper path: <LaTeX source directory or PDF>
 Top-four simulated review:
 
 ```text
-Use $security-top4-review-simulator to produce a pre-submission review with major weaknesses and must-fix evidence gaps.
+Use $security-top4-review-simulator, mode=full, to produce a pre-submission review with major weaknesses and must-fix evidence gaps.
 Paper path: <LaTeX source directory or PDF>
 ```
 
@@ -230,8 +241,8 @@ Orchestration skills do not replace venue-specific skills; they route the work a
 |---|---|---|
 | `cs-ai-conference-workflow` | Broad router for CS/AI conference selection, including AAAI, KDD, and security venues. | AAAI, KDD, and security Big Four venue skills |
 | `aaai-workflow` | End-to-end AAAI project management from topic fit through submission, rebuttal, camera-ready, and artifact release. | `aaai-topic-selection`, `aaai-experiments`, `aaai-writing-style`, `aaai-submission`, `aaai-author-response` |
-| `security-top4-workflow` | End-to-end orchestration for IEEE S&P, USENIX Security, ACM CCS, and NDSS. | `security-topic-selection`, `security-top4-venue-fit`, `security-threat-model`, `security-evidence-audit`, `security-submission-check` |
-| `security-top4-review-simulator` | Venue-calibrated simulated review panel for top-four security papers. | `security-evidence-audit`, `security-ethics-disclosure`, `security-artifact-package`, `security-author-response` |
+| `security-top4-workflow` | End-to-end orchestration for IEEE S&P, USENIX Security, ACM CCS, and NDSS, including one-shot full pre-submission audits. | Internal lanes for venue fit, threat model, evidence, writing, artifact, ethics, and submission checks |
+| `security-top4-review-simulator` | Venue-calibrated simulated review panel plus full-audit wrapper for top-four security papers. | Internal lanes for PC review, threat model, evidence, artifact/ethics, and desk-reject risk |
 | `aaai-security-paper-review` | AAAI-oriented review wrapper for security, SOC, threat-analysis, LLM-agent, and safety papers. | `aaai-conference-on-artificial-intelligence`, `aaai-experiments`, `aaai-writing-style` |
 
 Recommended entry points:
@@ -305,15 +316,17 @@ The workflow routes through:
 7. `security-writing-style`
 8. `security-submission-check`
 
-### 5. Simulated Top-Four Security Review
+In `mode=full`, these are internal audit lanes. The user runs the wrapper once; the lane names are shown so the report is easy to navigate, not because each skill must be invoked manually.
 
-Use when a draft exists and you want a PC-style review before submission.
+### 5. Full Top-Four Security Audit
+
+Use when a draft exists and you want a PC-style review plus the major pre-submission audit lanes in one run.
 
 ```text
-Use security-top4-review-simulator to review this NDSS manuscript: <path-to-pdf-or-latex-source>
+Use security-top4-review-simulator, mode=full, to review this NDSS manuscript: <path-to-pdf-or-latex-source>
 ```
 
-The simulator extracts a paper card and simulates:
+The full audit extracts a paper card and includes:
 
 - R1 venue-fit/generalist reviewer;
 - R2 threat-model/novelty reviewer;
@@ -322,10 +335,14 @@ The simulator extracts a paper card and simulates:
 - R5 topic specialist;
 - devil's advocate rejection case;
 - area-chair synthesis and revision roadmap.
+- threat-model audit;
+- claim-to-evidence audit;
+- artifact/ethics/release audit;
+- submission/desk-reject risk audit.
 
-### 6. Artifact, Ethics, and Rebuttal
+### 6. Drill-Down Audits And Rebuttal
 
-Use these once the paper has a concrete target and evidence package:
+Use these only after the full audit when you want deeper treatment of one lane:
 
 ```text
 Use security-artifact-package to audit my artifact README and reproduction scripts.
