@@ -40,6 +40,7 @@ scripts/
 ## Install
 
 Copy the desired skill directories into your Codex skills directory.
+Copy `resources/` as well when using skills that reference shared conference metadata or AAAI corpus metadata.
 
 Installer script:
 
@@ -56,16 +57,20 @@ Install to a custom directory:
 PowerShell:
 
 ```powershell
-$target = "$env:USERPROFILE\.codex\skills"
-New-Item -ItemType Directory -Force -Path $target | Out-Null
-Copy-Item -Recurse -Force .\skills\* $target
+$codexHome = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { "$env:USERPROFILE\.codex" }
+New-Item -ItemType Directory -Force -Path "$codexHome\skills" | Out-Null
+New-Item -ItemType Directory -Force -Path "$codexHome\resources" | Out-Null
+Copy-Item -Recurse -Force .\skills\* "$codexHome\skills"
+Copy-Item -Recurse -Force .\resources\* "$codexHome\resources"
 ```
 
 Bash:
 
 ```bash
-mkdir -p "$HOME/.codex/skills"
-cp -R skills/* "$HOME/.codex/skills/"
+codex_home="${CODEX_HOME:-$HOME/.codex}"
+mkdir -p "$codex_home/skills" "$codex_home/resources"
+cp -R skills/* "$codex_home/skills/"
+cp -R resources/* "$codex_home/resources/"
 ```
 
 Restart Codex or start a new session after installing, then check the skill list.
