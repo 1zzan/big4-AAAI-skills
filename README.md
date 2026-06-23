@@ -1,6 +1,6 @@
 # Big4 AAAI Skills
 
-Codex skills for paper planning, venue-fit checks, writing, review simulation, submission checks, and artifact preparation for:
+Codex skills for paper planning, venue-fit checks, writing, review simulation, submission checks, rebuttal, artifact preparation, and camera-ready work for:
 
 - AAAI
 - KDD
@@ -37,35 +37,50 @@ resources/
 scripts/
 ```
 
+## Requirements
+
+- Codex with local skill support.
+- PowerShell for `scripts/install.ps1`, or any shell that can copy directories.
+- Python 3 is recommended for helper scripts such as LaTeX context collection.
+
 ## Install
 
-Copy the desired skill directories into your Codex skills directory.
+Clone the repository first:
 
-Installer script:
+```bash
+git clone git@github.com:1zzan/big4-AAAI-skills.git
+cd big4-AAAI-skills
+```
+
+Install skills and shared resources:
 
 ```powershell
 .\scripts\install.ps1
 ```
 
-Install to a custom directory:
+Install to a custom Codex home:
 
 ```powershell
-.\scripts\install.ps1 -Destination "D:\path\to\.codex\skills"
+.\scripts\install.ps1 -CodexHome "D:\path\to\.codex"
 ```
 
-PowerShell:
+Manual PowerShell install:
 
 ```powershell
-$target = "$env:USERPROFILE\.codex\skills"
-New-Item -ItemType Directory -Force -Path $target | Out-Null
-Copy-Item -Recurse -Force .\skills\* $target
+$codexHome = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { "$env:USERPROFILE\.codex" }
+New-Item -ItemType Directory -Force -Path "$codexHome\skills" | Out-Null
+New-Item -ItemType Directory -Force -Path "$codexHome\resources" | Out-Null
+Copy-Item -Recurse -Force .\skills\* "$codexHome\skills"
+Copy-Item -Recurse -Force .\resources\* "$codexHome\resources"
 ```
 
-Bash:
+Manual Bash install:
 
 ```bash
-mkdir -p "$HOME/.codex/skills"
-cp -R skills/* "$HOME/.codex/skills/"
+codex_home="${CODEX_HOME:-$HOME/.codex}"
+mkdir -p "$codex_home/skills" "$codex_home/resources"
+cp -R skills/* "$codex_home/skills/"
+cp -R resources/* "$codex_home/resources/"
 ```
 
 Restart Codex or start a new session after installing, then check the skill list.
@@ -86,31 +101,30 @@ git fetch origin
 git pull --rebase origin main
 ```
 
+## Verify Installation
+
+After restarting Codex, the skill list should include at least:
+
+- `aaai-security-paper-review`
+- `aaai-conference-on-artificial-intelligence`
+- `security-top4-review-simulator`
+- `security-top4-venue-fit`
+
+If a skill cannot find shared conference metadata, confirm that `resources/` was copied to:
+
+```text
+~/.codex/resources
+```
+
+or, when `CODEX_HOME` is set:
+
+```text
+$CODEX_HOME/resources
+```
+
 ## How To Use
 
-In Codex, invoke a skill by naming it or by asking for the task it covers.
-
-Examples:
-
-```text
-Use security-top4-review-simulator to review my NDSS draft: <path-to-paper-source>
-```
-
-```text
-Use security-top4-workflow to plan a USENIX Security submission from idea to artifact release.
-```
-
-```text
-Use aaai-security-paper-review to review this AAAI paper about LLM-agent security.
-```
-
-```text
-Use cs-ai-conference-workflow to decide whether this work should target AAAI, KDD, CCS, NDSS, or USENIX Security.
-```
-
-```text
-Use aaai-workflow to build a submission checklist and timeline for my AAAI paper.
-```
+In Codex, invoke a skill by naming it or by asking for the task it covers. Skill names can be written plainly, such as `aaai-security-paper-review`, or with a `$` prefix when you want to force a specific skill, such as `$aaai-security-paper-review`.
 
 You can also ask naturally:
 
@@ -120,13 +134,101 @@ I have a SOC/LLM-security paper. Which top-four security venue fits best, and wh
 
 Codex should route that through the relevant workflow and venue-fit skills.
 
+## Quick Start
+
+Full AAAI security or LLM-agent review:
+
+```text
+Use $aaai-security-paper-review, mode=full, to review this AAAI security/LLM-agent manuscript.
+Paper path: <LaTeX source directory or PDF>
+Focus: AAAI fit, threat model, experiments, baselines, ablations, corpus comparison, and revision plan.
+```
+
+Security Big Four venue routing:
+
+```text
+Use $security-top4-venue-fit to decide whether this paper fits IEEE S&P, USENIX Security, ACM CCS, or NDSS.
+Paper path: <LaTeX source directory or PDF>
+```
+
+Top-four simulated review:
+
+```text
+Use $security-top4-review-simulator to produce a pre-submission review with major weaknesses and must-fix evidence gaps.
+Paper path: <LaTeX source directory or PDF>
+```
+
+Broad routing across AAAI, KDD, and security venues:
+
+```text
+Use $cs-ai-conference-workflow to decide whether this work should target AAAI, KDD, CCS, NDSS, or USENIX Security.
+Paper path: <LaTeX source directory or PDF>
+```
+
+## Included Skill Groups
+
+AAAI:
+
+- `aaai-conference-on-artificial-intelligence`
+- `aaai-topic-selection`
+- `aaai-writing-style`
+- `aaai-experiments`
+- `aaai-related-work`
+- `aaai-submission`
+- `aaai-review-process`
+- `aaai-author-response`
+- `aaai-camera-ready`
+- `aaai-artifact-evaluation`
+- `aaai-reproducibility`
+- `aaai-supplementary`
+- `aaai-workflow`
+- `aaai-security-paper-review`
+
+KDD:
+
+- `acm-sigkdd-conference-on-knowledge-discovery-and-data-mining`
+
+Security Big Four:
+
+- `ieee-symposium-on-security-and-privacy`
+- `usenix-security-symposium`
+- `acm-conference-on-computer-and-communications-security`
+- `network-and-distributed-system-security-symposium`
+
+Security workflow skills:
+
+- `security-top4-workflow`
+- `security-top4-venue-fit`
+- `security-top4-review-simulator`
+- `security-topic-selection`
+- `security-writing-style`
+- `security-threat-model`
+- `security-evidence-audit`
+- `security-related-work`
+- `security-submission-check`
+- `security-ethics-disclosure`
+- `security-artifact-package`
+- `security-author-response`
+- `security-camera-ready`
+
+Routing and shared references:
+
+- `cs-ai-conference-workflow`
+- `shared-references`
+
+Resources:
+
+- `resources/conference-roster.md`: stable official-source anchors.
+- `resources/official-source-map.md`: verification procedure for current CFPs and policies.
+- `resources/aaai-security-corpus/`: non-PDF metadata for AAAI security, SOC, threat-analysis, and LLM-agent calibration.
+
 ## Orchestration Skills
 
-Yes, this pack includes orchestration skills. They do not replace the venue-specific skills; they route the work and call out which specialized skill should be used next.
+Orchestration skills do not replace venue-specific skills; they route the work and call out which specialized skill should be used next.
 
 | Orchestrator | Purpose | Typical next skills |
 |---|---|---|
-| `cs-ai-conference-workflow` | Broad router for CS/AI conference selection, including AAAI, KDD, and security venues. | `aaai-conference-on-artificial-intelligence`, `acm-sigkdd-conference-on-knowledge-discovery-and-data-mining`, security Big Four venue skills |
+| `cs-ai-conference-workflow` | Broad router for CS/AI conference selection, including AAAI, KDD, and security venues. | AAAI, KDD, and security Big Four venue skills |
 | `aaai-workflow` | End-to-end AAAI project management from topic fit through submission, rebuttal, camera-ready, and artifact release. | `aaai-topic-selection`, `aaai-experiments`, `aaai-writing-style`, `aaai-submission`, `aaai-author-response` |
 | `security-top4-workflow` | End-to-end orchestration for IEEE S&P, USENIX Security, ACM CCS, and NDSS. | `security-topic-selection`, `security-top4-venue-fit`, `security-threat-model`, `security-evidence-audit`, `security-submission-check` |
 | `security-top4-review-simulator` | Venue-calibrated simulated review panel for top-four security papers. | `security-evidence-audit`, `security-ethics-disclosure`, `security-artifact-package`, `security-author-response` |
@@ -237,63 +339,6 @@ Use security-ethics-disclosure to check dual-use, human-subjects, responsible di
 Use security-author-response to draft a rebuttal from these reviews.
 ```
 
-## Included Skill Groups
-
-AAAI:
-
-- `aaai-conference-on-artificial-intelligence`
-- `aaai-topic-selection`
-- `aaai-writing-style`
-- `aaai-experiments`
-- `aaai-related-work`
-- `aaai-submission`
-- `aaai-review-process`
-- `aaai-author-response`
-- `aaai-camera-ready`
-- `aaai-artifact-evaluation`
-- `aaai-reproducibility`
-- `aaai-supplementary`
-- `aaai-workflow`
-- `aaai-security-paper-review`
-
-KDD:
-
-- `acm-sigkdd-conference-on-knowledge-discovery-and-data-mining`
-
-Security Big Four:
-
-- `ieee-symposium-on-security-and-privacy`
-- `usenix-security-symposium`
-- `acm-conference-on-computer-and-communications-security`
-- `network-and-distributed-system-security-symposium`
-
-Security workflow skills:
-
-- `security-top4-workflow`
-- `security-top4-venue-fit`
-- `security-top4-review-simulator`
-- `security-topic-selection`
-- `security-writing-style`
-- `security-threat-model`
-- `security-evidence-audit`
-- `security-related-work`
-- `security-submission-check`
-- `security-ethics-disclosure`
-- `security-artifact-package`
-- `security-author-response`
-- `security-camera-ready`
-
-Routing and shared references:
-
-- `cs-ai-conference-workflow`
-- `shared-references`
-
-Resources:
-
-- `resources/conference-roster.md`: stable official-source anchors.
-- `resources/official-source-map.md`: verification procedure for current CFPs and policies.
-- `resources/aaai-security-corpus/`: non-PDF metadata for AAAI security, SOC, threat-analysis, and LLM-agent calibration.
-
 ## Optional Calibration Data
 
 The security review simulator references summarized patterns extracted from a full-text calibration set of recent top-four security papers. The raw PDFs and extracted per-paper JSON/CSV files are not included in this repository.
@@ -306,14 +351,38 @@ data/fulltext-calibration/
 
 The skills remain usable without the optional calibration data because the summarized review patterns are included in the skill references.
 
+## AAAI Security Corpus Metadata
+
+`resources/aaai-security-corpus/` contains non-PDF metadata for recent AAAI security, SOC, threat-analysis, and LLM-agent papers:
+
+- seed corpus index,
+- expansion manifest with official AAAI OJS URLs,
+- candidate-title pool,
+- full-text structure report.
+
+PDFs and full extracted paper text are intentionally not included. Use the official OJS links in the manifest to download papers when local full-text inspection is needed.
+
 ## Current Limits
 
 - These are unofficial local skills, not official venue policies.
-- The skills intentionally summarize venue culture and review heuristics; they cannot replace current CFP checks.
+- The skills summarize venue culture and review heuristics; they cannot replace current CFP checks.
 - Dates, page limits, AI-use policy, ethics policy, artifact policy, rebuttal rules, and camera-ready requirements can change every cycle.
 - The security full-text calibration summary is included, but raw PDFs and per-paper extraction files are not bundled.
 - Some workflow skills route to venue profiles that may not be present in this trimmed repository; when a referenced skill is absent, use the closest included venue skill or install the broader conference pack.
 - `cs-ai-conference-workflow` can optionally use broader conference-pack examples under `resources/worked-examples/` and `resources/exemplars/`; those files are not required for the AAAI/KDD/security workflows included here.
+
+## Contributing
+
+- Use feature branches for parallel agents or collaborators.
+- Pull and rebase before editing if another agent may be pushing to the same repository.
+- Do not force-push shared branches.
+- Do not commit PDFs, compiled LaTeX artifacts, `__pycache__`, or private submission packages.
+- Keep `SKILL.md` concise and move detailed calibration material to `references/` or `resources/`.
+- Run the skill validator before opening a PR:
+
+```powershell
+python "$env:USERPROFILE\.codex\skills\.system\skill-creator\scripts\quick_validate.py" .\skills\<skill-name>
+```
 
 ## Notes
 
