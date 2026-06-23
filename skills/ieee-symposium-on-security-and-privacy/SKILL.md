@@ -43,9 +43,9 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 
 ## What distinguishes this venue from its closest siblings
 
-- **What IEEE S&P (Oakland) is.** The **IEEE** Symposium on **Security and Privacy** — one of the security "big four".
-- **vs CCS.** CCS (ACM) is the other top general-security flagship; with **USENIX Security** and **NDSS** they are the big four — differentiate by cycle and community.
-- **Routing.** Crypto-theory → CRYPTO/EUROCRYPT; applied/regional → ESORICS/ACSAC; privacy-specific → PETS.
+- **What IEEE S&P (Oakland) is.** The **IEEE** Symposium on **Security and Privacy** - one of the security "big four".
+- **vs CCS.** CCS (ACM) is the other top general-security flagship; with **USENIX Security** and **NDSS** they are the big four - differentiate by cycle and community.
+- **Routing.** Crypto-theory -> CRYPTO/EUROCRYPT; applied/regional -> ESORICS/ACSAC; privacy-specific -> PETS.
 
 ## IEEE S&P-specific routing detail
 
