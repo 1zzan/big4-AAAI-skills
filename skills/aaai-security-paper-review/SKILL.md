@@ -37,7 +37,8 @@ Before reviewing, load these resources in order:
 1. Read `../aaai-conference-on-artificial-intelligence/SKILL.md` to apply the AAAI venue-fit, evidence, official-cycle, and output rules.
 2. If the manuscript is about cybersecurity, SOC/endpoint detection, APT, cyber-threat analysis, LLM-agent security, MCP/tool poisoning, prompt injection, jailbreaks, guardrails, privacy/security alignment, or autonomous-agent safety, read `../aaai-conference-on-artificial-intelligence/references/security-llm-agent-aaai-patterns.md`.
 3. For `mode=full`, corpus comparison, or detailed rewrite, open the corpus artifacts named in that reference, especially `AAAI_security_llm_agent_fulltext_structure_report.md`.
-4. For current-cycle submission readiness, verify the live AAAI CFP, author kit, page limits, checklist, anonymity, supplement, and AI-use policy from the official AAAI website. Official instructions override all local skill notes.
+4. For `focus=writing`, `mode=edit`, or deep abstract/introduction/contribution revision, read `../aaai-writing-style/SKILL.md`; for security or LLM-agent manuscripts also read `../aaai-writing-style/references/security-llm-agent.md`.
+5. For current-cycle submission readiness, verify the live AAAI CFP, author kit, page limits, checklist, anonymity, supplement, and AI-use policy from the official AAAI website. Official instructions override all local skill notes.
 
 ## Manuscript Intake
 
@@ -87,6 +88,7 @@ Audit the paper by section:
 - Threat model / problem formulation: attacker capability, trust boundary, assets, success criteria, and benign workflow.
 - Method: reusable AI mechanism, decision boundary, learned vs deterministic components, and failure-mode coverage.
 - Experiments: datasets, tasks, baselines, metrics, ablations, robustness, model/provider variants, and utility-security tradeoff.
+- Writing style: first-page broad-AI framing, corpus-backed security/LLM-agent style, contribution bullets, evidence paragraphs, and overclaim removal.
 - Limitations / ethics / reproducibility: release plan, artifacts, prompts/logs, responsible disclosure, closed-provider metadata, and claim scope.
 
 ### 4. Corpus-Matched Diagnosis
@@ -151,4 +153,3 @@ Use $aaai-security-paper-review, mode=full, to review this AAAI security/LLM-age
 Paper path: <LaTeX source directory or PDF>
 Focus: AAAI fit, threat model, experiments, baselines, ablations, corpus comparison, and revision plan.
 ```
-

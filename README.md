@@ -155,6 +155,15 @@ Paper path: <LaTeX source directory or PDF>
 Focus: AAAI fit, threat model, experiments, baselines, ablations, corpus comparison, and revision plan.
 ```
 
+AAAI security or LLM-agent writing optimization:
+
+```text
+Use $aaai-writing-style, mode=deep, focus=security-llm-agent, to revise my AAAI manuscript abstract, introduction, contribution bullets, evidence paragraphs, limitations, ethics, and reproducibility wording.
+Paper path: <LaTeX source directory or PDF>
+```
+
+For an AAAI security/LLM-agent draft, `aaai-security-paper-review, mode=full` is the one-shot review wrapper. Use `aaai-writing-style, mode=deep` when you only want the corpus-backed writing pass; review/edit modes in `aaai-security-paper-review` load that writing package when the focus is abstract, introduction, contribution, or evidence prose.
+
 Security Big Four venue routing:
 
 ```text
@@ -251,6 +260,7 @@ Orchestration skills do not replace venue-specific skills; they route the work a
 | `security-top4-workflow` | End-to-end orchestration for IEEE S&P, USENIX Security, ACM CCS, and NDSS, including one-shot full pre-submission audits. | Internal lanes for venue fit, threat model, evidence, writing, artifact, ethics, and submission checks |
 | `security-top4-review-simulator` | Venue-calibrated simulated review panel plus full-audit wrapper for top-four security papers. | Internal lanes for PC review, threat model, evidence, artifact/ethics, and desk-reject risk |
 | `aaai-security-paper-review` | AAAI-oriented review wrapper for security, SOC, threat-analysis, LLM-agent, and safety papers. | `aaai-conference-on-artificial-intelligence`, `aaai-experiments`, `aaai-writing-style` |
+| `aaai-writing-style` | AAAI writing optimizer; `mode=deep, focus=security-llm-agent` uses corpus-backed abstract, introduction, contribution, evidence, limitations, ethics, and reproducibility patterns. | `aaai-conference-on-artificial-intelligence`, AAAI security corpus metadata |
 
 Recommended entry points:
 

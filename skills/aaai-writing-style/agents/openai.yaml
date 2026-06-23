@@ -1,0 +1,4 @@
+interface:
+  display_name: "AAAI Writing Style"
+  short_description: "Rewrite AAAI papers with broad-AI and security/agent style."
+  default_prompt: "Use $aaai-writing-style, mode=deep, focus=security-llm-agent, to revise my AAAI manuscript abstract, introduction, contributions, evidence paragraphs, limitations, ethics, and reproducibility wording."

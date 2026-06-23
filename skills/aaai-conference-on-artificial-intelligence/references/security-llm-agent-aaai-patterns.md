@@ -4,7 +4,7 @@ Use this reference when an AAAI-targeted paper is about cybersecurity, APT detec
 
 Open-source corpus metadata folder: `../../../resources/aaai-security-corpus`
 
-Optional local full-PDF corpus folder: `E:/workspace/文献/安全四大/AAAI-security-llm-agent-2024-2026`
+Optional local full-PDF corpus folder: `data/aaai-security-corpus/pdfs/` if you maintain PDFs outside the public repository.
 
 Corpus artifacts:
 

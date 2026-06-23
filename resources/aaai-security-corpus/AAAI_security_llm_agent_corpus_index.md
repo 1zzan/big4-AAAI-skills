@@ -1,6 +1,6 @@
 # AAAI Security, SOC, Threat Analysis, and LLM-Agent Security Corpus
 
-Local PDF folder: `E:/workspace/文献/安全四大/AAAI-security-llm-agent-2024-2026`
+Optional local PDF folder: `data/aaai-security-corpus/pdfs/` if you maintain PDFs outside the public repository.
 
 Scope: selected recent AAAI main-conference papers from AAAI-24, AAAI-25, and AAAI-26 that are useful for calibrating AAAI fit for APT detection, SOC/endpoint threat detection, cyber-threat analysis, LLM-assisted security, LLM-agent safety, tool security, MCP security, and multi-agent risk.
 

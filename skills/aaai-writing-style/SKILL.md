@@ -1,12 +1,22 @@
 ---
 name: aaai-writing-style
-description: Use when revising an AAAI manuscript for broad-AI-audience fit, a first-page contribution statement legible to non-specialist Phase-1 reviewers, two-column readability, concise novelty claims, reproducibility-checklist alignment, hedged limitations and ethics, and policy-aware framing of AI-system and capability claims.
+description: Use when revising an AAAI manuscript for broad-AI-audience fit, mode=deep AAAI writing optimization, security/LLM-agent corpus-backed writing style, first-page contribution statements legible to non-specialist Phase-1 reviewers, abstract/introduction/contribution/evidence/limitation rewrites, two-column readability, concise novelty claims, reproducibility-checklist alignment, hedged limitations and ethics, and policy-aware framing of AI-system and capability claims.
 ---
 
 # AAAI Writing Style
 
 Use this to make a technically sound draft readable to a broad AI program committee. AAAI rewards
 clear AI contribution, not only subfield-specific benchmark wins.
+
+## Modes And References
+
+- `mode=quick`: diagnose first-page clarity, contribution type, checklist alignment, and overclaim risks.
+- `mode=deep`: rewrite or plan the abstract, introduction, contribution bullets, evidence paragraphs, limitations, ethics, and reproducibility wording.
+- `mode=compare`: compare AAAI framing against KDD or security venues when the target is uncertain.
+
+For cybersecurity, APT/SOC, threat analysis, LLM-agent security, MCP/tool security, prompt injection, jailbreak, guardrail, privacy/security alignment, or agent-safety manuscripts, read `references/security-llm-agent.md` before any `mode=deep` rewrite. That reference is backed by the 72-paper AAAI security/LLM-agent corpus metadata under `../../resources/aaai-security-corpus/`.
+
+If `mode=deep` is requested and the manuscript is not security/LLM-agent related, use the general AAAI rules in this file and state that no domain-specific corpus-backed style reference is available.
 
 ## AAAI framing
 
@@ -46,6 +56,21 @@ contribution, and vice versa. Audit the opening against what that reader needs t
 - Replace a long related-work catalogue with two or three sharp contrasts a non-specialist can follow.
 - Tie every strong claim back to a checklist answer so rigor and prose agree.
 
+## Deep Rewrite Procedure
+
+For `mode=deep`, produce:
+
+1. AAAI style diagnosis: what a broad Phase-1 reviewer can extract from the first page.
+2. AI contribution spine: problem, reusable idea, evidence, limitation, and checklist alignment.
+3. Abstract rewrite plan: one sentence per slot and a revised abstract when source text is provided.
+4. Introduction order: first-page narrative sequence and missing nearest-prior-work delta.
+5. Contribution bullets: each bullet names contribution type and evidence.
+6. Evidence paragraph rewrites: dataset/task, baselines, ablations, metrics, and scope.
+7. Limitations/ethics/reproducibility wording: align claims with checklist and artifacts.
+8. Overclaim audit: phrases to remove or narrow.
+
+Do not invent experiments, baselines, datasets, ethics statements, artifact releases, or checklist answers. If source text is missing, provide templates and edit instructions instead of fabricated prose.
+
 ## Worked vignette
 
 A multi-agent paper opens with three paragraphs of game-theory notation before naming its
@@ -63,3 +88,16 @@ one-line evidence, and a final clause scoping the result to the studied setting,
 [Overclaim risks] <claims to narrow or evidence to add>
 ```
 
+For `mode=deep`, use:
+
+```text
+[AAAI style diagnosis]
+[AI contribution spine]
+[Abstract structure/rewrite]
+[Introduction order]
+[Contribution bullet rewrites]
+[Evidence paragraph rewrites]
+[Limitations/ethics/reproducibility wording]
+[Overclaim removals]
+[Next edits]
+```
