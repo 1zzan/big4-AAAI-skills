@@ -93,7 +93,7 @@ Audit the paper by section:
 
 ### 4. Corpus-Matched Diagnosis
 
-Use the 72-paper full-text structure report to identify the nearest paper families:
+Use the 120-paper full-text structure report to identify the nearest paper families:
 
 - SOC/threat-analysis.
 - LLM-safety-attack-defense.

@@ -13,7 +13,7 @@ Corpus artifacts:
 - `AAAI_security_llm_agent_candidate_pool.json`: broad OJS title pool from AAAI-24/25/26 issue pages.
 - Optional local-only artifact: `AAAI_security_llm_agent_fulltext_structure.jsonl`, a per-paper full-text extraction with snippets and evidence flags. This file is not required for normal review and is not included in the public repository by default.
 
-Corpus size after expansion: 72 PDFs from AAAI-24, AAAI-25, and AAAI-26. The set is intentionally high-relevance rather than exhaustive. It covers APT/provenance detection, EDR detection, malicious-traffic detection, ransomware detection, CVE/smart-contract vulnerability detection, fraud/bot/malware analysis, LLM jailbreak/guardrail papers, MCP/tool security, mobile and multi-agent safety, LLM backdoor/poisoning, membership/inversion/privacy attacks, and secure LLM-based interfaces.
+Corpus size after expansion: 120 PDFs from AAAI-24, AAAI-25, and AAAI-26. The set is intentionally high-relevance rather than exhaustive. It covers APT/provenance detection, EDR detection, malicious-traffic detection, ransomware detection, CVE/smart-contract vulnerability detection, fraud/bot/malware analysis, LLM jailbreak/guardrail papers, MCP/tool security, mobile and multi-agent safety, LLM backdoor/poisoning, membership/inversion/privacy attacks, and secure LLM-based interfaces.
 
 ## How to Use This Reference
 

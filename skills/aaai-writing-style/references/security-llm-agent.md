@@ -2,7 +2,7 @@
 
 Use this reference when `aaai-writing-style` is invoked with `mode=deep` for cybersecurity, APT/SOC, threat analysis, LLM-assisted cyber reasoning, LLM-agent security, MCP/tool security, prompt injection, jailbreak/guardrail, privacy/security alignment, or agent-safety manuscripts.
 
-This reference is derived from the AAAI security/LLM-agent corpus metadata under `../../resources/aaai-security-corpus/`: 72 AAAI-24/25/26 papers selected for security, SOC, threat-analysis, LLM safety, agent/tool security, backdoor/poisoning, and privacy/security-alignment relevance. Treat it as a calibration set, not a complete census of all AAAI papers.
+This reference is derived from the AAAI security/LLM-agent corpus metadata under `../../resources/aaai-security-corpus/`: 120 AAAI-24/25/26 papers selected for security, SOC, threat-analysis, LLM safety, agent/tool security, backdoor/poisoning, and privacy/security-alignment relevance. Treat it as a calibration set, not a complete census of all AAAI papers.
 
 ## Style Thesis
 

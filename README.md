@@ -247,7 +247,7 @@ Resources:
 
 - `resources/conference-roster.md`: stable official-source anchors.
 - `resources/official-source-map.md`: verification procedure for current CFPs and policies.
-- `resources/aaai-security-corpus/`: non-PDF metadata for AAAI security, SOC, threat-analysis, and LLM-agent calibration.
+- `resources/aaai-security-corpus/`: non-PDF metadata for the 120-paper AAAI security, SOC, threat-analysis, and LLM-agent calibration corpus.
 
 ## Orchestration Skills
 
@@ -387,7 +387,7 @@ The skills remain usable without the optional calibration data because the summa
 
 ## AAAI Security Corpus Metadata
 
-`resources/aaai-security-corpus/` contains non-PDF metadata for recent AAAI security, SOC, threat-analysis, and LLM-agent papers:
+`resources/aaai-security-corpus/` contains non-PDF metadata for 120 recent AAAI security, SOC, threat-analysis, and LLM-agent papers:
 
 - seed corpus index,
 - expansion manifest with official AAAI OJS URLs,
@@ -395,6 +395,8 @@ The skills remain usable without the optional calibration data because the summa
 - full-text structure report.
 
 PDFs and full extracted paper text are intentionally not included. Use the official OJS links in the manifest to download papers when local full-text inspection is needed.
+
+To extend or rebuild the local-only full-text extraction, use `scripts/expand_aaai_security_corpus.py` with a private PDF directory. Keep PDFs and JSONL snippets outside git.
 
 ## Current Limits
 

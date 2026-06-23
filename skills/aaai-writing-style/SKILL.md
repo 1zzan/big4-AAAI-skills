@@ -14,7 +14,7 @@ clear AI contribution, not only subfield-specific benchmark wins.
 - `mode=deep`: rewrite or plan the abstract, introduction, contribution bullets, evidence paragraphs, limitations, ethics, and reproducibility wording.
 - `mode=compare`: compare AAAI framing against KDD or security venues when the target is uncertain.
 
-For cybersecurity, APT/SOC, threat analysis, LLM-agent security, MCP/tool security, prompt injection, jailbreak, guardrail, privacy/security alignment, or agent-safety manuscripts, read `references/security-llm-agent.md` before any `mode=deep` rewrite. That reference is backed by the 72-paper AAAI security/LLM-agent corpus metadata under `../../resources/aaai-security-corpus/`.
+For cybersecurity, APT/SOC, threat analysis, LLM-agent security, MCP/tool security, prompt injection, jailbreak, guardrail, privacy/security alignment, or agent-safety manuscripts, read `references/security-llm-agent.md` before any `mode=deep` rewrite. That reference is backed by the 120-paper AAAI security/LLM-agent corpus metadata under `../../resources/aaai-security-corpus/`.
 
 If `mode=deep` is requested and the manuscript is not security/LLM-agent related, use the general AAAI rules in this file and state that no domain-specific corpus-backed style reference is available.
 

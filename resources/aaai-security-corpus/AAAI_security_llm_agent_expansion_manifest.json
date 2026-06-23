@@ -759,5 +759,687 @@
     ],
     "local_pdf": "AAAI26_Disentangling_Adversarial_Prompts_A_Semantic_Graph_Defense_for_Robust_LLM_Security.pdf",
     "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 1",
+    "title": "Transferable Backdoor Attacks for Code Models via Sharpness-Aware Adversarial Perturbation",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/36964",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/36964/40926",
+    "score": 3,
+    "hits": [
+      "attack",
+      "attacks",
+      "backdoor"
+    ],
+    "local_pdf": "AAAI26_Transferable_Backdoor_Attacks_for_Code_Models_via_Sharpness_Aware_Adversarial_Perturbation.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 1",
+    "title": "VFCionX: Bridging Large and Small Models for Robust Vulnerability-Fixing Commit Identification",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/36976",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/36976/40938",
+    "score": 3,
+    "hits": [
+      "vulnerability"
+    ],
+    "local_pdf": "AAAI26_VFCionX_Bridging_Large_and_Small_Models_for_Robust_Vulnerability_Fixing_Commit_Identification.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 1",
+    "title": "T2Agent: A Tool-augmented Multimodal Misinformation Detection Agent with Monte Carlo Tree Search",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/36977",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/36977/40939",
+    "score": 4,
+    "hits": [
+      "tool"
+    ],
+    "local_pdf": "AAAI26_T2Agent_A_Tool_augmented_Multimodal_Misinformation_Detection_Agent_with_Monte_Carlo_Tree_Search.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2024",
+    "issue": "AAAI-24 Special Track Safe, Robust and Responsible AI Track",
+    "title": "Beyond Traditional Threats: A Persistent Backdoor Attack on Federated Learning",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30131",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30131/32002",
+    "score": 5,
+    "hits": [
+      "attack",
+      "backdoor",
+      "threat"
+    ],
+    "local_pdf": "AAAI24_Beyond_Traditional_Threats_A_Persistent_Backdoor_Attack_on_Federated_Learning.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2024",
+    "issue": "AAAI-24 Special Track Safe, Robust and Responsible AI Track",
+    "title": "SentinelLMs: Encrypted Input Adaptation and Fine-Tuning of Language Models for Private and Secure Inference",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30136",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30136/32011",
+    "score": 6,
+    "hits": [
+      "apt",
+      "secure"
+    ],
+    "local_pdf": "AAAI24_SentinelLMs_Encrypted_Input_Adaptation_and_Fine_Tuning_of_Language_Models_for_Private_and_Secure_Inference.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2024",
+    "issue": "AAAI-24 Special Track Safe, Robust and Responsible AI Track",
+    "title": "Efficient Toxic Content Detection by Bootstrapping and Distilling Large Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30178",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30178/32091",
+    "score": 3,
+    "hits": [],
+    "local_pdf": "AAAI24_Efficient_Toxic_Content_Detection_by_Bootstrapping_and_Distilling_Large_Language_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2024",
+    "issue": "AAAI-24 Special Track Safe, Robust and Responsible AI Track",
+    "title": "OUTFOX: LLM-Generated Essay Detection Through In-Context Learning with Adversarially Generated Examples",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30120",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30120/31980",
+    "score": 3,
+    "hits": [],
+    "local_pdf": "AAAI24_OUTFOX_LLM_Generated_Essay_Detection_Through_In_Context_Learning_with_Adversarially_Generated_Examples.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2024",
+    "issue": "AAAI-24 Technical Tracks 1",
+    "title": "Inspecting Prediction Confidence for Detecting Black-Box Backdoor Attacks",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/27780",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/27780/27597",
+    "score": 4,
+    "hits": [
+      "attack",
+      "attacks",
+      "backdoor"
+    ],
+    "local_pdf": "AAAI24_Inspecting_Prediction_Confidence_for_Detecting_Black_Box_Backdoor_Attacks.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2024",
+    "issue": "AAAI-24 Technical Tracks 7",
+    "title": "SEER: Backdoor Detection for Vision-Language Models through Searching Target Text and Image Trigger Jointly",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/28611",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/28611/29187",
+    "score": 4,
+    "hits": [
+      "backdoor"
+    ],
+    "local_pdf": "AAAI24_SEER_Backdoor_Detection_for_Vision_Language_Models_through_Searching_Target_Text_and_Image_Trigger_Jointly.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2024",
+    "issue": "AAAI-24 Technical Tracks 13",
+    "title": "Backdoor Attacks via Machine Unlearning",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29321",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29321/30492",
+    "score": 3,
+    "hits": [
+      "attack",
+      "attacks",
+      "backdoor"
+    ],
+    "local_pdf": "AAAI24_Backdoor_Attacks_via_Machine_Unlearning.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2024",
+    "issue": "AAAI-24 Technical Tracks 3",
+    "title": "COMBAT: Alternated Training for Effective Clean-Label Backdoor Attacks",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/28019",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/28019/28052",
+    "score": 3,
+    "hits": [
+      "attack",
+      "attacks",
+      "backdoor"
+    ],
+    "local_pdf": "AAAI24_COMBAT_Alternated_Training_for_Effective_Clean_Label_Backdoor_Attacks.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2024",
+    "issue": "AAAI-24 Technical Tracks 15",
+    "title": "Chronic Poisoning: Backdoor Attack against Split Learning",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29591",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29591/30996",
+    "score": 3,
+    "hits": [
+      "attack",
+      "backdoor",
+      "poisoning"
+    ],
+    "local_pdf": "AAAI24_Chronic_Poisoning_Backdoor_Attack_against_Split_Learning.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2024",
+    "issue": "AAAI-24 Special Track Safe, Robust and Responsible AI Track",
+    "title": "DataElixir: Purifying Poisoned Dataset to Mitigate Backdoor Attacks via Diffusion Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30186",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30186/32105",
+    "score": 3,
+    "hits": [
+      "attack",
+      "attacks",
+      "backdoor"
+    ],
+    "local_pdf": "AAAI24_DataElixir_Purifying_Poisoned_Dataset_to_Mitigate_Backdoor_Attacks_via_Diffusion_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2024",
+    "issue": "AAAI-24 Technical Tracks 10",
+    "title": "Task-Agnostic Privacy-Preserving Representation Learning for Federated Learning against Attribute Inference Attacks",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/28965",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/28965/29834",
+    "score": 3,
+    "hits": [
+      "attack",
+      "attacks",
+      "privacy"
+    ],
+    "local_pdf": "AAAI24_Task_Agnostic_Privacy_Preserving_Representation_Learning_for_Federated_Learning_against_Attribute_Inference_Atta.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2024",
+    "issue": "AAAI-24 Technical Tracks 12",
+    "title": "Value at Adversarial Risk: A Graph Defense Strategy against Cost-Aware Attacks",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29282",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29282/30419",
+    "score": 3,
+    "hits": [
+      "attack",
+      "attacks",
+      "defense"
+    ],
+    "local_pdf": "AAAI24_Value_at_Adversarial_Risk_A_Graph_Defense_Strategy_against_Cost_Aware_Attacks.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2024",
+    "issue": "AAAI-24 Technical Tracks 12",
+    "title": "Spear and Shield: Adversarial Attacks and Defense Methods for Model-Based Link Prediction on Continuous-Time Dynamic Graphs",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29239",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29239/30339",
+    "score": 3,
+    "hits": [
+      "attack",
+      "attacks",
+      "defense"
+    ],
+    "local_pdf": "AAAI24_Spear_and_Shield_Adversarial_Attacks_and_Defense_Methods_for_Model_Based_Link_Prediction_on_Continuous_Time_Dyna.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2024",
+    "issue": "AAAI-24 Technical Tracks 1",
+    "title": "Adversarial Attacks on Federated-Learned Adaptive Bitrate Algorithms",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/27796",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/27796/27625",
+    "score": 5,
+    "hits": [
+      "apt",
+      "attack",
+      "attacks"
+    ],
+    "local_pdf": "AAAI24_Adversarial_Attacks_on_Federated_Learned_Adaptive_Bitrate_Algorithms.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 2",
+    "title": "MI-CAPTCHA: Enhance the Security of CAPTCHA Using Mooney Images",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32128",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32128/34283",
+    "score": 4,
+    "hits": [
+      "apt",
+      "security"
+    ],
+    "local_pdf": "AAAI25_MI_CAPTCHA_Enhance_the_Security_of_CAPTCHA_Using_Mooney_Images.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 4",
+    "title": "Medical MLLM Is Vulnerable: Cross-Modality Jailbreak and Mismatched Attacks on Medical Multimodal Large Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32396",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32396/34551",
+    "score": 7,
+    "hits": [
+      "attack",
+      "attacks",
+      "jailbreak"
+    ],
+    "local_pdf": "AAAI25_Medical_MLLM_Is_Vulnerable_Cross_Modality_Jailbreak_and_Mismatched_Attacks_on_Medical_Multimodal_Large_Language.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 22",
+    "title": "Investigating the Security Threat Arising from “Yes-No” Implicit Bias in Large Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34554",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34554/36709",
+    "score": 6,
+    "hits": [
+      "security",
+      "threat"
+    ],
+    "local_pdf": "AAAI25_Investigating_the_Security_Threat_Arising_from_Yes_No_Implicit_Bias_in_Large_Language_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Special Track on AI Alignment",
+    "title": "Is Your Autonomous Vehicle Safe? Understanding the Threat of Electromagnetic Signal Injection Attacks on Traffic Scene Perception",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34958",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34958/37113",
+    "score": 6,
+    "hits": [
+      "attack",
+      "attacks",
+      "threat"
+    ],
+    "local_pdf": "AAAI25_Is_Your_Autonomous_Vehicle_Safe_Understanding_the_Threat_of_Electromagnetic_Signal_Injection_Attacks_on_Traffic.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 6",
+    "title": "Privacy-Preserving Low-Rank Adaptation Against Membership Inference Attacks for Latent Diffusion Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32628",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32628/34783",
+    "score": 6,
+    "hits": [
+      "apt",
+      "attack",
+      "attacks",
+      "privacy"
+    ],
+    "local_pdf": "AAAI25_Privacy_Preserving_Low_Rank_Adaptation_Against_Membership_Inference_Attacks_for_Latent_Diffusion_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Special Track on AI Alignment",
+    "title": "SafeInfer: Context Adaptive Decoding Time Safety Alignment for Large Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34927",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34927/37082",
+    "score": 6,
+    "hits": [
+      "apt",
+      "safety"
+    ],
+    "local_pdf": "AAAI25_SafeInfer_Context_Adaptive_Decoding_Time_Safety_Alignment_for_Large_Language_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 15",
+    "title": "RAT: Adversarial Attacks on Deep Reinforcement Agents for Targeted Behaviors",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33696",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33696/35851",
+    "score": 5,
+    "hits": [
+      "agents",
+      "attack",
+      "attacks"
+    ],
+    "local_pdf": "AAAI25_RAT_Adversarial_Attacks_on_Deep_Reinforcement_Agents_for_Targeted_Behaviors.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Special Track on AI Alignment",
+    "title": "Retention Score: Quantifying Jailbreak Risks for Vision Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34956",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34956/37111",
+    "score": 5,
+    "hits": [
+      "jailbreak"
+    ],
+    "local_pdf": "AAAI25_Retention_Score_Quantifying_Jailbreak_Risks_for_Vision_Language_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 16",
+    "title": "SADBA: Self-Adaptive Distributed Backdoor Attack Against Federated Learning",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33820",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33820/35975",
+    "score": 5,
+    "hits": [
+      "apt",
+      "attack",
+      "backdoor"
+    ],
+    "local_pdf": "AAAI25_SADBA_Self_Adaptive_Distributed_Backdoor_Attack_Against_Federated_Learning.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 22",
+    "title": "CP-Guard: Malicious Agent Detection and Defense in Collaborative Bird’s Eye View Perception",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34486",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34486/36641",
+    "score": 4,
+    "hits": [
+      "defense"
+    ],
+    "local_pdf": "AAAI25_CP_Guard_Malicious_Agent_Detection_and_Defense_in_Collaborative_Birds_Eye_View_Perception.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 11",
+    "title": "Global Attribute-Association Pattern Aggregation for Graph Fraud Detection",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33264",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33264/35419",
+    "score": 5,
+    "hits": [
+      "fraud",
+      "soc"
+    ],
+    "local_pdf": "AAAI25_Global_Attribute_Association_Pattern_Aggregation_for_Graph_Fraud_Detection.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 15",
+    "title": "Unveiling the Threat of Fraud Gangs to Graph Neural Networks: Multi-Target Graph Injection Attacks Against GNN-Based Fraud Detectors",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33760",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33760/35915",
+    "score": 7,
+    "hits": [
+      "attack",
+      "attacks",
+      "fraud",
+      "threat"
+    ],
+    "local_pdf": "AAAI25_Unveiling_the_Threat_of_Fraud_Gangs_to_Graph_Neural_Networks_Multi_Target_Graph_Injection_Attacks_Against_GNN_Ba.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 8",
+    "title": "Meme Trojan: Backdoor Attacks Against Hateful Meme Detection via Cross-Modal Triggers",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32845",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32845/35000",
+    "score": 4,
+    "hits": [
+      "attack",
+      "attacks",
+      "backdoor"
+    ],
+    "local_pdf": "AAAI25_Meme_Trojan_Backdoor_Attacks_Against_Hateful_Meme_Detection_via_Cross_Modal_Triggers.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 9",
+    "title": "Adversarial-Inspired Backdoor Defense via Bridging Backdoor and Adversarial Attacks",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33030",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33030/35185",
+    "score": 4,
+    "hits": [
+      "attack",
+      "attacks",
+      "backdoor",
+      "defense"
+    ],
+    "local_pdf": "AAAI25_Adversarial_Inspired_Backdoor_Defense_via_Bridging_Backdoor_and_Adversarial_Attacks.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 18",
+    "title": "Attack on Prompt: Backdoor Attack in Prompt-Based Continual Learning",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34168",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34168/36323",
+    "score": 4,
+    "hits": [
+      "attack",
+      "backdoor"
+    ],
+    "local_pdf": "AAAI25_Attack_on_Prompt_Backdoor_Attack_in_Prompt_Based_Continual_Learning.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 23",
+    "title": "Backdoor Token Unlearning: Exposing and Defending Backdoors in Pretrained Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34605",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34605/36760",
+    "score": 3,
+    "hits": [
+      "backdoor"
+    ],
+    "local_pdf": "AAAI25_Backdoor_Token_Unlearning_Exposing_and_Defending_Backdoors_in_Pretrained_Language_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 25",
+    "title": "CL-Attack: Textual Backdoor Attacks via Cross-Lingual Triggers",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34842",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34842/36997",
+    "score": 3,
+    "hits": [
+      "attack",
+      "attacks",
+      "backdoor"
+    ],
+    "local_pdf": "AAAI25_CL_Attack_Textual_Backdoor_Attacks_via_Cross_Lingual_Triggers.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 23",
+    "title": "CLNX: Bridging Code and Natural Language for C/C++ Vulnerability-Contributing Commits Identification",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34689",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34689/36844",
+    "score": 3,
+    "hits": [
+      "vulnerability"
+    ],
+    "local_pdf": "AAAI25_CLNX_Bridging_Code_and_Natural_Language_for_C_C_Vulnerability_Contributing_Commits_Identification.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 1",
+    "title": "DF-MIA: A Distribution-Free Membership Inference Attack on Fine-Tuned Large Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32012",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32012/34167",
+    "score": 3,
+    "hits": [
+      "attack"
+    ],
+    "local_pdf": "AAAI25_DF_MIA_A_Distribution_Free_Membership_Inference_Attack_on_Fine_Tuned_Large_Language_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 1",
+    "title": "Portcullis: A Scalable and Verifiable Privacy Gateway for Third-Party LLM Inference",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32088",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32088/34243",
+    "score": 3,
+    "hits": [
+      "privacy"
+    ],
+    "local_pdf": "AAAI25_Portcullis_A_Scalable_and_Verifiable_Privacy_Gateway_for_Third_Party_LLM_Inference.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 24",
+    "title": "NLSR: Neuron-Level Safety Realignment of Large Language Models Against Harmful Fine-Tuning",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34762",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34762/36917",
+    "score": 3,
+    "hits": [
+      "safety"
+    ],
+    "local_pdf": "AAAI25_NLSR_Neuron_Level_Safety_Realignment_of_Large_Language_Models_Against_Harmful_Fine_Tuning.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Special Track on AI Alignment",
+    "title": "Scaling Trends for Data Poisoning in LLMs",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34929",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34929/37084",
+    "score": 3,
+    "hits": [
+      "poisoning"
+    ],
+    "local_pdf": "AAAI25_Scaling_Trends_for_Data_Poisoning_in_LLMs.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 1",
+    "title": "Simulate and Eliminate: Revoke Backdoors for Generative Large Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32018",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32018/34173",
+    "score": 3,
+    "hits": [
+      "backdoor"
+    ],
+    "local_pdf": "AAAI25_Simulate_and_Eliminate_Revoke_Backdoors_for_Generative_Large_Language_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 7",
+    "title": "First Line of Defense: A Robust First Layer Mitigates Adversarial Attacks",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32771",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32771/34926",
+    "score": 3,
+    "hits": [
+      "attack",
+      "attacks",
+      "defense"
+    ],
+    "local_pdf": "AAAI25_First_Line_of_Defense_A_Robust_First_Layer_Mitigates_Adversarial_Attacks.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 18",
+    "title": "Grimm: A Plug-and-Play Perturbation Rectifier for Graph Neural Networks Defending Against Poisoning Attacks",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34064",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34064/36219",
+    "score": 3,
+    "hits": [
+      "attack",
+      "attacks",
+      "poisoning"
+    ],
+    "local_pdf": "AAAI25_Grimm_A_Plug_and_Play_Perturbation_Rectifier_for_Graph_Neural_Networks_Defending_Against_Poisoning_Attacks.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 8",
+    "title": "HoneypotNet: Backdoor Attacks Against Model Extraction",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32872",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32872/35027",
+    "score": 3,
+    "hits": [
+      "attack",
+      "attacks",
+      "backdoor"
+    ],
+    "local_pdf": "AAAI25_HoneypotNet_Backdoor_Attacks_Against_Model_Extraction.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Special Track on AI Alignment",
+    "title": "IBAS:Imperceptible Backdoor Attacks in Split Learning with Limited Information",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34986",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34986/37141",
+    "score": 3,
+    "hits": [
+      "attack",
+      "attacks",
+      "backdoor"
+    ],
+    "local_pdf": "AAAI25_IBAS_Imperceptible_Backdoor_Attacks_in_Split_Learning_with_Limited_Information.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 24",
+    "title": "Defending Against Sophisticated Poisoning Attacks with RL-based Aggregation in Federated Learning",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34733",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34733/36888",
+    "score": 3,
+    "hits": [
+      "attack",
+      "attacks",
+      "poisoning"
+    ],
+    "local_pdf": "AAAI25_Defending_Against_Sophisticated_Poisoning_Attacks_with_RL_based_Aggregation_in_Federated_Learning.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 19",
+    "title": "Label-Free Backdoor Attacks in Vertical Federated Learning",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34246",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34246/36401",
+    "score": 3,
+    "hits": [
+      "attack",
+      "attacks",
+      "backdoor"
+    ],
+    "local_pdf": "AAAI25_Label_Free_Backdoor_Attacks_in_Vertical_Federated_Learning.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 2",
+    "title": "An LLM-based Quantitative Framework for Evaluating High-Stealthy Backdoor Risks in OSS Supply Chains",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37116",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37116/41078",
+    "score": 3,
+    "hits": [
+      "backdoor"
+    ],
+    "local_pdf": "AAAI26_An_LLM_based_Quantitative_Framework_for_Evaluating_High_Stealthy_Backdoor_Risks_in_OSS_Supply_Chains.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 30",
+    "title": "Towards Robust Text-Attributed Federated Graph Learning: Multimodal Threats and Defense",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/39732",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/39732/43693",
+    "score": 4,
+    "hits": [
+      "defense",
+      "threat"
+    ],
+    "local_pdf": "AAAI26_Towards_Robust_Text_Attributed_Federated_Graph_Learning_Multimodal_Threats_and_Defense.pdf",
+    "status": "downloaded"
   }
 ]

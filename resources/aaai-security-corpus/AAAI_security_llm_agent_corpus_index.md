@@ -8,9 +8,9 @@ This is a working corpus, not an exhaustive bibliography. Use it to extract venu
 
 ## Expanded Corpus Artifacts
 
-The corpus has been expanded from the initial 18-paper seed set to 72 PDFs. The full inventory and structure extraction now live in these generated artifacts:
+The corpus has been expanded from the initial 18-paper seed set to 120 PDFs. The full inventory and structure extraction now live in these generated artifacts:
 
-- `AAAI_security_llm_agent_expansion_manifest.json`: 54 additional downloaded AAAI OJS papers with title, year, issue, source URL, and local PDF filename.
+- `AAAI_security_llm_agent_expansion_manifest.json`: 102 additional downloaded AAAI OJS papers with title, year, issue, source URL, and local PDF filename.
 - `AAAI_security_llm_agent_candidate_pool.json`: title-level candidate pool scraped from AAAI-24, AAAI-25, and AAAI-26 OJS issue pages before manual relevance filtering.
 - `AAAI_security_llm_agent_fulltext_structure.jsonl`: per-paper full-text extraction, including section headings, topic labels, evidence flags, and problem/contribution/evaluation/risk snippets.
 - `AAAI_security_llm_agent_fulltext_structure_report.md`: readable full-text structure report with corpus counts and a paper-level table.
@@ -19,12 +19,12 @@ Current full-text label counts:
 
 | Label | Count |
 |---|---:|
-| SOC/threat-analysis | 30 |
-| LLM-safety-attack-defense | 29 |
-| agent/tool-security | 14 |
-| backdoor/poisoning | 11 |
-| privacy/security-alignment | 6 |
-| security-adjacent | 1 |
+| SOC/threat-analysis | 75 |
+| LLM-safety-attack-defense | 75 |
+| agent/tool-security | 34 |
+| backdoor/poisoning | 33 |
+| privacy/security-alignment | 31 |
+| security-adjacent | 4 |
 
 ## Seed Paper Inventory
 
