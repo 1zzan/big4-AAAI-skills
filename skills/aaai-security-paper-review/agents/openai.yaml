@@ -1,0 +1,4 @@
+interface:
+  display_name: "AAAI Security Paper Review"
+  short_description: "Review AAAI security and LLM-agent papers"
+  default_prompt: "Use $aaai-security-paper-review to review my AAAI security or LLM-agent manuscript."

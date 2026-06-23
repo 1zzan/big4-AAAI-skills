@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Writing Style"
+  short_description: "Rewrite security papers for top-four reviewer expectations."
+  default_prompt: "Use $security-writing-style to revise my abstract and introduction for top security venues."

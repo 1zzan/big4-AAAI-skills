@@ -1,0 +1,5 @@
+interface:
+  display_name: "Security Camera-Ready"
+  short_description: "Prepare accepted security papers."
+  default_prompt: "Use $security-camera-ready to prepare the final version after acceptance or shepherding."
+

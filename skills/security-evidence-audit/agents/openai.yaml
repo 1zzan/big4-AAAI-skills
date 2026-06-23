@@ -1,0 +1,5 @@
+interface:
+  display_name: "Security Evidence Audit"
+  short_description: "Audit top-four security paper evidence."
+  default_prompt: "Use $security-evidence-audit to audit whether my experiments support the security claims."
+

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Security Ethics Disclosure"
+  short_description: "Plan disclosure, IRB, and harm limits."
+  default_prompt: "Use $security-ethics-disclosure to prepare the ethics and responsible-disclosure section."
+

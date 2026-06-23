@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Author Response"
+  short_description: "Draft concise, evidence-grounded rebuttals for security reviews."
+  default_prompt: "Use $security-author-response to draft a response to these security conference reviews."

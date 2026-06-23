@@ -1,0 +1,5 @@
+interface:
+  display_name: "Security Artifact Package"
+  short_description: "Package security artifacts safely."
+  default_prompt: "Use $security-artifact-package to plan my security paper artifact and reproducibility package."
+

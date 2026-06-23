@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Related Work"
+  short_description: "Build related-work positioning for top security venues."
+  default_prompt: "Use $security-related-work to audit my related work and position the technical delta."

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Security Submission Check"
+  short_description: "Preflight security submissions."
+  default_prompt: "Use $security-submission-check to run a final pre-submission checklist for my security paper."
+

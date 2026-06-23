@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Topic Selection"
+  short_description: "Shape security ideas into top-four-conference contributions."
+  default_prompt: "Use $security-topic-selection to refine this security idea into a top-four conference submission."

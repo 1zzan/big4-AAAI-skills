@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Top-4 Workflow"
+  short_description: "Plan an S&P/USENIX/CCS/NDSS submission lifecycle."
+  default_prompt: "Use $security-top4-workflow to plan my security paper from venue choice through rebuttal and camera-ready."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Top-Four Review Simulator"
+  short_description: "Simulate top-four security reviews."
+  default_prompt: "Simulate top-four security conference reviews for this manuscript."

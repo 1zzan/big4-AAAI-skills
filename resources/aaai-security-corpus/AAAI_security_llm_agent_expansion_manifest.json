@@ -1,0 +1,763 @@
+[
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 23",
+    "title": "CyberPal.AI: Empowering LLMs with Expert-Driven Cybersecurity Instructions",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34618",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34618/36773",
+    "score": 6,
+    "hits": [
+      "cyber",
+      "security"
+    ],
+    "local_pdf": "AAAI25_CyberPal_AI_Empowering_LLMs_with_Expert_Driven_Cybersecurity_Instructions.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 2",
+    "title": "DRMD: Deep Reinforcement Learning for Malware Detection Under Concept Drift",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37053",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37053/41015",
+    "score": 4,
+    "hits": [
+      "malware"
+    ],
+    "local_pdf": "AAAI26_DRMD_Deep_Reinforcement_Learning_for_Malware_Detection_Under_Concept_Drift.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 2",
+    "title": "CTX-Coder: Cross-Attention Architectures Empower LLMs for Long-Context Vulnerability Detection",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37087",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37087/41049",
+    "score": 6,
+    "hits": [
+      "vulnerability"
+    ],
+    "local_pdf": "AAAI26_CTX_Coder_Cross_Attention_Architectures_Empower_LLMs_for_Long_Context_Vulnerability_Detection.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 2",
+    "title": "HogVul: Black-box Adversarial Code Generation Framework Against LM-based Vulnerability Detectors",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37118",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37118/41080",
+    "score": 4,
+    "hits": [
+      "vulnerability"
+    ],
+    "local_pdf": "AAAI26_HogVul_Black_box_Adversarial_Code_Generation_Framework_Against_LM_based_Vulnerability_Detectors.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 1",
+    "title": "CLEP: A Novel Contrastive Learning Method for Evolutionary Reentrancy Vulnerability Detection",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/31981",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/31981/34136",
+    "score": 4,
+    "hits": [
+      "vulnerability"
+    ],
+    "local_pdf": "AAAI25_CLEP_A_Novel_Contrastive_Learning_Method_for_Evolutionary_Reentrancy_Vulnerability_Detection.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 14",
+    "title": "MTVHunter: Smart Contracts Vulnerability Detection Based on Multi-Teacher Knowledge Translation",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33664",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33664/35819",
+    "score": 4,
+    "hits": [
+      "vulnerability"
+    ],
+    "local_pdf": "AAAI25_MTVHunter_Smart_Contracts_Vulnerability_Detection_Based_on_Multi_Teacher_Knowledge_Translation.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 1",
+    "title": "MalCL: Leveraging GAN-Based Generative Replay to Combat Catastrophic Forgetting in Malware Classification",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32047",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32047/34202",
+    "score": 4,
+    "hits": [
+      "malware"
+    ],
+    "local_pdf": "AAAI25_MalCL_Leveraging_GAN_Based_Generative_Replay_to_Combat_Catastrophic_Forgetting_in_Malware_Class.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 18",
+    "title": "DGP: A Dual-Granularity Prompting Framework for Fraud Detection with Graph-Enhanced LLMs",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/38541",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/38541/42503",
+    "score": 4,
+    "hits": [
+      "fraud"
+    ],
+    "local_pdf": "AAAI26_DGP_A_Dual_Granularity_Prompting_Framework_for_Fraud_Detection_with_Graph_Enhanced_LLMs.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 18",
+    "title": "Targeting Borderline Fraudsters: Multi-View Hypergraph Fraud Detection with LLM-Guided Contrastive Learning",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/38588",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/38588/42550",
+    "score": 4,
+    "hits": [
+      "fraud"
+    ],
+    "local_pdf": "AAAI26_Targeting_Borderline_Fraudsters_Multi_View_Hypergraph_Fraud_Detection_with_LLM_Guided_Contrasti.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 13",
+    "title": "BotSim: LLM-Powered Malicious Social Botnet Simulation",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33575",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33575/35730",
+    "score": 7,
+    "hits": [
+      "botnet",
+      "soc"
+    ],
+    "local_pdf": "AAAI25_BotSim_LLM_Powered_Malicious_Social_Botnet_Simulation.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 2",
+    "title": "RABot: Reinforcement-Guided Graph Augmentation for Imbalanced and Noisy Social Bot Detection",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37127",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37127/41089",
+    "score": 4,
+    "hits": [
+      "soc"
+    ],
+    "local_pdf": "AAAI26_RABot_Reinforcement_Guided_Graph_Augmentation_for_Imbalanced_and_Noisy_Social_Bot_Detection.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 37",
+    "title": "MCP-AgentBench: Evaluating Real-World Language Agent Performance with MCP-Mediated Tools",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40347",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40347/44308",
+    "score": 6,
+    "hits": [
+      "mcp",
+      "tool"
+    ],
+    "local_pdf": "AAAI26_MCP_AgentBench_Evaluating_Real_World_Language_Agent_Performance_with_MCP_Mediated_Tools.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 35",
+    "title": "Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210/44171",
+    "score": 6,
+    "hits": [
+      "agents",
+      "llm agent",
+      "security"
+    ],
+    "local_pdf": "AAAI26_Towards_Effective_Offensive_Security_LLM_Agents_Hyperparameter_Tuning_LLM_as_a_Judge_and_a_Ligh.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 2",
+    "title": "PriAgent: A Collaborative Multi-Agent Framework for Auditing Android Privacy Compliance",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37135",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37135/41097",
+    "score": 4,
+    "hits": [
+      "multi-agent",
+      "privacy"
+    ],
+    "local_pdf": "AAAI26_PriAgent_A_Collaborative_Multi_Agent_Framework_for_Auditing_Android_Privacy_Compliance.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 35",
+    "title": "Adversarial Attack on Black-Box Multi-Agent by Adaptive Perturbation",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40176",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40176/44137",
+    "score": 7,
+    "hits": [
+      "apt",
+      "attack",
+      "multi-agent"
+    ],
+    "local_pdf": "AAAI26_Adversarial_Attack_on_Black_Box_Multi_Agent_by_Adaptive_Perturbation.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 37",
+    "title": "Fact2Fiction: Targeted Poisoning Attack to Agentic Fact-checking System",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40353",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40353/44314",
+    "score": 4,
+    "hits": [
+      "attack",
+      "poisoning"
+    ],
+    "local_pdf": "AAAI26_Fact2Fiction_Targeted_Poisoning_Attack_to_Agentic_Fact_checking_System.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 42",
+    "title": "Mind the Third Eye! Benchmarking Privacy Awareness in MLLM-powered Smartphone Agents",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40874",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40874/44835",
+    "score": 5,
+    "hits": [
+      "agents",
+      "privacy"
+    ],
+    "local_pdf": "AAAI26_Mind_the_Third_Eye_Benchmarking_Privacy_Awareness_in_MLLM_powered_Smartphone_Agents.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Special Track on AI Alignment",
+    "title": "MCA-Bench: A Multimodal Benchmark for Evaluating CAPTCHA Robustness Against VLM-based Attacks",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/41141",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/41141/45102",
+    "score": 6,
+    "hits": [
+      "apt",
+      "attack",
+      "attacks"
+    ],
+    "local_pdf": "AAAI26_MCA_Bench_A_Multimodal_Benchmark_for_Evaluating_CAPTCHA_Robustness_Against_VLM_based_Attacks.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 1",
+    "title": "CHASE: Contextual History for Adaptive and Simple Exploitation in Large Language Model Jailbreaking",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/36996",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/36996/40958",
+    "score": 9,
+    "hits": [
+      "apt",
+      "jailbreak",
+      "jailbreaking"
+    ],
+    "local_pdf": "AAAI26_CHASE_Contextual_History_for_Adaptive_and_Simple_Exploitation_in_Large_Language_Model_Jailbreak.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 39",
+    "title": "MAJIC: Markovian Adaptive Jailbreaking via Iterative Composition of Diverse Innovative Strategies",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40554",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40554/44515",
+    "score": 9,
+    "hits": [
+      "apt",
+      "jailbreak",
+      "jailbreaking"
+    ],
+    "local_pdf": "AAAI26_MAJIC_Markovian_Adaptive_Jailbreaking_via_Iterative_Composition_of_Diverse_Innovative_Strategie.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 39",
+    "title": "MirrorShield: Towards Dynamic Adaptive Defense Against Jailbreaks via Entropy-Guided Mirror Crafting",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40553",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40553/44514",
+    "score": 9,
+    "hits": [
+      "apt",
+      "defense",
+      "jailbreak"
+    ],
+    "local_pdf": "AAAI26_MirrorShield_Towards_Dynamic_Adaptive_Defense_Against_Jailbreaks_via_Entropy_Guided_Mirror_Craf.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 42",
+    "title": "SceneJailEval: A Scenario-Adaptive Multi-Dimensional Framework for Jailbreak Evaluation",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40866",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40866/44827",
+    "score": 9,
+    "hits": [
+      "apt",
+      "jailbreak"
+    ],
+    "local_pdf": "AAAI26_SceneJailEval_A_Scenario_Adaptive_Multi_Dimensional_Framework_for_Jailbreak_Evaluation.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Special Track on AI Alignment",
+    "title": "AlignTree: Efficient Defense Against LLM Jailbreak Attacks",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/41074",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/41074/45035",
+    "score": 8,
+    "hits": [
+      "attack",
+      "attacks",
+      "defense",
+      "jailbreak"
+    ],
+    "local_pdf": "AAAI26_AlignTree_Efficient_Defense_Against_LLM_Jailbreak_Attacks.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Special Track on AI Alignment",
+    "title": "MetaCipher: A Time-Persistent and Universal Multi-Agent Framework for Cipher-Based Jailbreak Attacks for LLMs",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/41058",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/41058/45019",
+    "score": 8,
+    "hits": [
+      "attack",
+      "attacks",
+      "jailbreak",
+      "multi-agent"
+    ],
+    "local_pdf": "AAAI26_MetaCipher_A_Time_Persistent_and_Universal_Multi_Agent_Framework_for_Cipher_Based_Jailbreak_Att.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 42",
+    "title": "Dynamic Deep Prompt Optimization for Defending Against Jailbreak Attacks on LLMs",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40887",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40887/44848",
+    "score": 7,
+    "hits": [
+      "attack",
+      "attacks",
+      "jailbreak"
+    ],
+    "local_pdf": "AAAI26_Dynamic_Deep_Prompt_Optimization_for_Defending_Against_Jailbreak_Attacks_on_LLMs.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 5",
+    "title": "EigenShield: Inference-Time, Model-Agnostic Jailbreaking Defense via Causal Subspace Filtering",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37350",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37350/41312",
+    "score": 7,
+    "hits": [
+      "defense",
+      "jailbreak",
+      "jailbreaking"
+    ],
+    "local_pdf": "AAAI26_EigenShield_Inference_Time_Model_Agnostic_Jailbreaking_Defense_via_Causal_Subspace_Filtering.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 41",
+    "title": "Response Attack: Exploiting Contextual Priming to Jailbreak Large Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40836",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40836/44797",
+    "score": 6,
+    "hits": [
+      "attack",
+      "jailbreak"
+    ],
+    "local_pdf": "AAAI26_Response_Attack_Exploiting_Contextual_Priming_to_Jailbreak_Large_Language_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 38",
+    "title": "EquaCode: A Multi-Strategy Jailbreak Approach for Large Language Models via Equation Solving and Code Completion",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40465",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40465/44426",
+    "score": 5,
+    "hits": [
+      "jailbreak"
+    ],
+    "local_pdf": "AAAI26_EquaCode_A_Multi_Strategy_Jailbreak_Approach_for_Large_Language_Models_via_Equation_Solving_and.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Special Track on AI Alignment",
+    "title": "MMJ-Bench: A Comprehensive Study on Jailbreak Attacks and Defenses for Vision Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34983",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34983/37138",
+    "score": 8,
+    "hits": [
+      "attack",
+      "attacks",
+      "defense",
+      "jailbreak"
+    ],
+    "local_pdf": "AAAI25_MMJ_Bench_A_Comprehensive_Study_on_Jailbreak_Attacks_and_Defenses_for_Vision_Language_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 22",
+    "title": "FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34568",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34568/36723",
+    "score": 6,
+    "hits": [
+      "jailbreak",
+      "jailbreaking"
+    ],
+    "local_pdf": "AAAI25_FigStep_Jailbreaking_Large_Vision_Language_Models_via_Typographic_Visual_Prompts.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 22",
+    "title": "Multi-Turn Jailbreaking Large Language Models via Attention Shifting",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34553",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34553/36708",
+    "score": 6,
+    "hits": [
+      "jailbreak",
+      "jailbreaking"
+    ],
+    "local_pdf": "AAAI25_Multi_Turn_Jailbreaking_Large_Language_Models_via_Attention_Shifting.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Special Track on AI Alignment",
+    "title": "JailPO: A Novel Black-Box Jailbreak Framework via Preference Optimization Against Aligned LLMs",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34953",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34953/37108",
+    "score": 5,
+    "hits": [
+      "jailbreak"
+    ],
+    "local_pdf": "AAAI25_JailPO_A_Novel_Black_Box_Jailbreak_Framework_via_Preference_Optimization_Against_Aligned_LLMs.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Special Track on AI Alignment",
+    "title": "Token Highlighter: Inspecting and Mitigating Jailbreak Prompts for Large Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34943",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34943/37098",
+    "score": 5,
+    "hits": [
+      "jailbreak"
+    ],
+    "local_pdf": "AAAI25_Token_Highlighter_Inspecting_and_Mitigating_Jailbreak_Prompts_for_Large_Language_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Special Track on AI Alignment",
+    "title": "ChatBug: A Common Vulnerability of Aligned LLMs Induced by Chat Templates",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34945",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34945/37100",
+    "score": 5,
+    "hits": [
+      "vulnerability"
+    ],
+    "local_pdf": "AAAI25_ChatBug_A_Common_Vulnerability_of_Aligned_LLMs_Induced_by_Chat_Templates.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2024",
+    "issue": "AAAI-24 Special Track Safe, Robust and Responsible AI Track",
+    "title": "Visual Adversarial Examples Jailbreak Aligned Large Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30150",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/30150/32038",
+    "score": 5,
+    "hits": [
+      "jailbreak"
+    ],
+    "local_pdf": "AAAI24_Visual_Adversarial_Examples_Jailbreak_Aligned_Large_Language_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 42",
+    "title": "Efficient LLM-Jailbreaking via Multimodal-LLM Jailbreak",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40863",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40863/44824",
+    "score": 6,
+    "hits": [
+      "jailbreak",
+      "jailbreaking"
+    ],
+    "local_pdf": "AAAI26_Efficient_LLM_Jailbreaking_via_Multimodal_LLM_Jailbreak.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 42",
+    "title": "Activation Manipulation Attack: Penetrating and Harmful Jailbreak Attack Against Large Vision-Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40858",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40858/44819",
+    "score": 6,
+    "hits": [
+      "attack",
+      "jailbreak"
+    ],
+    "local_pdf": "AAAI26_Activation_Manipulation_Attack_Penetrating_and_Harmful_Jailbreak_Attack_Against_Large_Vision_La.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 33",
+    "title": "TVChain: Leveraging Textual-Visual Prompt Chains for Jailbreaking Large Vision-Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40018",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40018/43979",
+    "score": 6,
+    "hits": [
+      "jailbreak",
+      "jailbreaking"
+    ],
+    "local_pdf": "AAAI26_TVChain_Leveraging_Textual_Visual_Prompt_Chains_for_Jailbreaking_Large_Vision_Language_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 39",
+    "title": "SafetyReminder: Reviving Delayed Safety Awareness of Vision-Language Models to Defend Against Jailbreak Attacks",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40607",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40607/44568",
+    "score": 8,
+    "hits": [
+      "attack",
+      "attacks",
+      "jailbreak",
+      "safety"
+    ],
+    "local_pdf": "AAAI26_SafetyReminder_Reviving_Delayed_Safety_Awareness_of_Vision_Language_Models_to_Defend_Against_Ja.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 42",
+    "title": "Reason2Attack: Jailbreaking Text-to-Image Models via LLM Reasoning",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40919",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40919/44880",
+    "score": 8,
+    "hits": [
+      "attack",
+      "jailbreak",
+      "jailbreaking"
+    ],
+    "local_pdf": "AAAI26_Reason2Attack_Jailbreaking_Text_to_Image_Models_via_LLM_Reasoning.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 42",
+    "title": "T2I-RiskyPrompt: A Benchmark for Safety Evaluation, Attack, and Defense on Text-to-Image Model",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40920",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40920/44881",
+    "score": 6,
+    "hits": [
+      "attack",
+      "defense",
+      "safety"
+    ],
+    "local_pdf": "AAAI26_T2I_RiskyPrompt_A_Benchmark_for_Safety_Evaluation_Attack_and_Defense_on_Text_to_Image_Model.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 22",
+    "title": "Security Attacks on LLM-based Code Completion Tools",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34537",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34537/36692",
+    "score": 6,
+    "hits": [
+      "attack",
+      "attacks",
+      "security",
+      "tool"
+    ],
+    "local_pdf": "AAAI25_Security_Attacks_on_LLM_based_Code_Completion_Tools.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 36",
+    "title": "Persistent Backdoor Attacks Under Continual Fine-Tuning of LLMs",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40295",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40295/44256",
+    "score": 5,
+    "hits": [
+      "attack",
+      "attacks",
+      "backdoor"
+    ],
+    "local_pdf": "AAAI26_Persistent_Backdoor_Attacks_Under_Continual_Fine_Tuning_of_LLMs.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Special Track on AI Alignment",
+    "title": "AdvBDGen: A Robust Framework for Generating Adaptive and Stealthy Backdoors in LLM Alignment",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/41118",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/41118/45079",
+    "score": 6,
+    "hits": [
+      "apt",
+      "backdoor"
+    ],
+    "local_pdf": "AAAI26_AdvBDGen_A_Robust_Framework_for_Generating_Adaptive_and_Stealthy_Backdoors_in_LLM_Alignment.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 42",
+    "title": "ConfGuard: A Simple and Effective Backdoor Detection for Large Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40897",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40897/44858",
+    "score": 4,
+    "hits": [
+      "backdoor"
+    ],
+    "local_pdf": "AAAI26_ConfGuard_A_Simple_and_Effective_Backdoor_Detection_for_Large_Language_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Special Track on AI Alignment",
+    "title": "Cost-Minimized Label-Flipping Poisoning Attack to LLM Alignment",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/41087",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/41087/45048",
+    "score": 4,
+    "hits": [
+      "attack",
+      "poisoning"
+    ],
+    "local_pdf": "AAAI26_Cost_Minimized_Label_Flipping_Poisoning_Attack_to_LLM_Alignment.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 37",
+    "title": "DUP: Detection-guided Unlearning for Backdoor Purification in Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40366",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40366/44327",
+    "score": 4,
+    "hits": [
+      "backdoor"
+    ],
+    "local_pdf": "AAAI26_DUP_Detection_guided_Unlearning_for_Backdoor_Purification_in_Language_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 42",
+    "title": "Eguard: Defending LLM Embeddings Against Inversion Attacks via Text Mutual Information Optimization",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40876",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40876/44837",
+    "score": 4,
+    "hits": [
+      "attack",
+      "attacks"
+    ],
+    "local_pdf": "AAAI26_Eguard_Defending_LLM_Embeddings_Against_Inversion_Attacks_via_Text_Mutual_Information_Optimizat.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 39",
+    "title": "Optimization and Robustness-Informed Membership Inference Attacks for LLMs",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40587",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40587/44548",
+    "score": 4,
+    "hits": [
+      "attack",
+      "attacks"
+    ],
+    "local_pdf": "AAAI26_Optimization_and_Robustness_Informed_Membership_Inference_Attacks_for_LLMs.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Special Track on AI Alignment",
+    "title": "Towards Benchmarking Privacy Vulnerabilities in Selective Forgetting with Large Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/41120",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/41120/45081",
+    "score": 4,
+    "hits": [
+      "privacy"
+    ],
+    "local_pdf": "AAAI26_Towards_Benchmarking_Privacy_Vulnerabilities_in_Selective_Forgetting_with_Large_Language_Models.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 41",
+    "title": "ShadeEdit: A Utility-Preserving and Defense-Evasive Knowledge Manipulation Attack in Federated LLMs",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40787",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40787/44748",
+    "score": 4,
+    "hits": [
+      "attack",
+      "defense"
+    ],
+    "local_pdf": "AAAI26_ShadeEdit_A_Utility_Preserving_and_Defense_Evasive_Knowledge_Manipulation_Attack_in_Federated_L.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Technical Tracks 25",
+    "title": "Watch Out for Your Guidance on Generation! Exploring Conditional Backdoor Attacks against Large Language Models",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34819",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34819/36974",
+    "score": 5,
+    "hits": [
+      "attack",
+      "attacks",
+      "backdoor"
+    ],
+    "local_pdf": "AAAI25_Watch_Out_for_Your_Guidance_on_Generation_Exploring_Conditional_Backdoor_Attacks_against_Large_.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2025",
+    "issue": "AAAI-25 Special Track on AI Alignment",
+    "title": "Is Poisoning a Real Threat to DPO? Maybe More So Than You Think",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34968",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34968/37123",
+    "score": 4,
+    "hits": [
+      "poisoning",
+      "threat"
+    ],
+    "local_pdf": "AAAI25_Is_Poisoning_a_Real_Threat_to_DPO_Maybe_More_So_Than_You_Think.pdf",
+    "status": "downloaded"
+  },
+  {
+    "year": "2026",
+    "issue": "AAAI-26 Technical Tracks 5",
+    "title": "Disentangling Adversarial Prompts: A Semantic-Graph Defense for Robust LLM Security",
+    "article_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37389",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37389/41351",
+    "score": 4,
+    "hits": [
+      "defense",
+      "security"
+    ],
+    "local_pdf": "AAAI26_Disentangling_Adversarial_Prompts_A_Semantic_Graph_Defense_for_Robust_LLM_Security.pdf",
+    "status": "downloaded"
+  }
+]

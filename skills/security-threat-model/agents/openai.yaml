@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Threat Model"
+  short_description: "Audit adversary models, assets, assumptions, and claims."
+  default_prompt: "Use $security-threat-model to check whether my threat model supports the paper claims."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Top-4 Venue Fit"
+  short_description: "Route security papers among S&P, USENIX, CCS, and NDSS."
+  default_prompt: "Use $security-top4-venue-fit to decide whether my paper fits S&P, USENIX Security, CCS, or NDSS."
