@@ -1,11 +1,26 @@
 ---
 name: security-writing-style
-description: Use when rewriting abstracts, introductions, contributions, limitations, ethics text, or paper framing for IEEE S&P, USENIX Security, ACM CCS, or NDSS. Triggers for top-four security writing style, reviewer-facing narrative, claim calibration, impact wording, and venue-specific security framing.
+description: Use when rewriting abstracts, introductions, contributions, limitations, ethics text, artifact/release wording, or paper framing for IEEE S&P, USENIX Security, ACM CCS, or NDSS. Triggers for top-four security writing style, venue=sp/usenix/ccs/ndss, mode=deep venue-specific writing optimization, reviewer-facing narrative, claim calibration, impact wording, abstract/intro structure, contribution bullets, evidence paragraphs, and venue-specific security framing.
 ---
 
 # Security Writing Style
 
 Use this to make a security paper readable to top-four reviewers without overclaiming. The style should be precise, adversarially clear, and evidence-calibrated.
+
+## Modes And Venue References
+
+- `mode=quick`: rewrite the main claim, hook, threat-model sentence, evidence sentence, and overclaims.
+- `mode=deep`: optimize abstract, introduction, contribution bullets, evidence paragraphs, limitations/ethics, and artifact/release wording for the target venue.
+- `mode=compare`: compare how the same paper should be framed for S&P, USENIX Security, CCS, and NDSS.
+
+When a target venue is given, read exactly one venue reference before rewriting:
+
+- S&P / IEEE S&P / Oakland: `references/sp.md`
+- USENIX / USENIX Security: `references/usenix.md`
+- CCS / ACM CCS: `references/ccs.md`
+- NDSS: `references/ndss.md`
+
+If `mode=deep` is requested and the venue is unclear, first identify the likely venue from the manuscript or ask for the target venue if the rewrite would materially differ.
 
 ## Abstract Pattern
 
@@ -57,6 +72,21 @@ For LLM and agent-security papers:
 - Distinguish bypassing one defense from breaking a whole class.
 - Distinguish proof assumptions from deployment assumptions.
 
+## Deep Rewrite Procedure
+
+For `mode=deep`, produce:
+
+1. Venue style diagnosis: what the current text sounds like versus the target venue.
+2. Claim spine: one security claim with asset, adversary, consequence, evidence, and boundary.
+3. Abstract rewrite plan: five slots and a revised abstract if source text is provided.
+4. Introduction order: first-page narrative sequence and missing prior-work delta.
+5. Contribution bullets: rewrite bullets so each one has a matching evidence block.
+6. Evidence paragraphs: rewrite or outline result paragraphs with denominator, setting, baseline, and limitation.
+7. Limitations/ethics/artifact wording: tighten release, disclosure, harm, and scope language.
+8. Overclaim audit: list phrases to remove or narrow.
+
+Do not invent experiments, baselines, artifacts, ethics review, or deployment facts. If source text is missing, provide templates and edit instructions instead of a fabricated rewrite.
+
 ## Output Format
 
 ```text
@@ -66,4 +96,18 @@ For LLM and agent-security papers:
 [Threat-model sentence] <sentence>
 [Evidence sentence] <sentence>
 [Venue tone] S&P / USENIX / CCS / NDSS / neutral
+```
+
+For `mode=deep`, use:
+
+```text
+[Venue style diagnosis]
+[Claim spine]
+[Abstract structure/rewrite]
+[Introduction order]
+[Contribution bullet rewrites]
+[Evidence paragraph rewrites]
+[Limitations/ethics/artifact wording]
+[Overclaim removals]
+[Next edits]
 ```

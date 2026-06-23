@@ -169,6 +169,13 @@ Use $security-top4-review-simulator, mode=full, to produce a pre-submission revi
 Paper path: <LaTeX source directory or PDF>
 ```
 
+Venue-specific writing optimization:
+
+```text
+Use $security-writing-style, mode=deep, venue=NDSS, to revise my abstract, introduction, contribution bullets, evidence paragraphs, limitations, ethics, and artifact wording.
+Paper path: <LaTeX source directory or PDF>
+```
+
 Broad routing across AAAI, KDD, and security venues:
 
 ```text
