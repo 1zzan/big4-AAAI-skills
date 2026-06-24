@@ -164,6 +164,14 @@ Paper path: <LaTeX source directory or PDF>
 
 For an AAAI security/LLM-agent draft, `aaai-security-paper-review, mode=full` is the one-shot review wrapper. Use `aaai-writing-style, mode=deep` when you only want the corpus-backed writing pass; review/edit modes in `aaai-security-paper-review` load that writing package when the focus is abstract, introduction, contribution, or evidence prose.
 
+Academic de-AI writing pass / 学术论文去 AI 味:
+
+```text
+Use $academic-de-ai-writing, mode=deep, style=argumentative, to audit and rewrite this manuscript for researcher texture, concrete evidence, citation hierarchy, specific limitations, and non-generic academic voice.
+Paper path: <LaTeX source directory or PDF>
+Constraints: do not invent experiments, citations, parameters, datasets, or claims.
+```
+
 Security Big Four venue routing:
 
 ```text
@@ -242,6 +250,7 @@ Routing and shared references:
 
 - `cs-ai-conference-workflow`
 - `shared-references`
+- `academic-de-ai-writing`
 
 Resources:
 

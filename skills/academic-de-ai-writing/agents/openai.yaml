@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic De-AI Writing"
+  short_description: "Remove AI-polished texture from academic manuscripts."
+  default_prompt: "Use $academic-de-ai-writing, mode=deep, to audit and rewrite this manuscript for researcher texture, concrete evidence, citation hierarchy, and non-generic academic voice without inventing claims or references."
